@@ -1,0 +1,226 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 72px;
+  /* Adjust based on the height of your fixed header */
+}
+
+.fixed-top-custom {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  background-color: #012fa6;
+  padding: 10px 0;
+  color: white;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-container {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.list-inline-item {
+  font-size: 14px;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 2rem
+}
+
+.nav-tambahan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* Adjust the height as needed */
+  background-color: #fffbf0;
+}
+
+.client-section {
+  background-color: #fffbf0;
+}
+
+.ul-navbar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* logo slide */
+.logo-slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+.logos {
+  display: flex;
+  width: max-content;
+  animation: scroll 50s linear infinite;
+}
+
+.logos img {
+
+  height: 60px;
+  /* Maintain original height and aspect ratio */
+  margin: 0 20px;
+  /* Space between logos */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* end logo slide */
+
+
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  /* Adjust as needed */
+  overflow: hidden;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  /* Ensure content is above the video */
+  /* Add styles for your content here */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0e67e4;
+  /* Color overlay */
+  opacity: 0.7;
+  /* Adjust transparency here */
+}
+
+/* desktop mode */
+@media (min-width: 992px) {
+  .mobile_hide {
+    display: none !important;
+    /* Hide menu in desktop mode */
+  }
+
+  .margin-desktop {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .video-text {
+    padding-left: 17rem !important;
+    padding-right: 17rem !important;
+  }
+
+
+}
+
+/* hp mode */
+@media (max-width: 991.98px) {
+  .nav-tambahan {
+    display: none !important;
+  }
+
+  .video-container {
+    height: 400px;
+  }
+
+
+
+}
+
+.container.content {
+  max-width: 1100px;
+}
+
+.horizontal-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  white-space: nowrap;
+  /* Prevent wrapping of items */
+}
+
+.conten-square {
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  /* Allow text to wrap within each item */
+  margin-right: 20px;
+  /* Space between items */
+}
+
+.square-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Optional: to see the border of the square */
+  border-radius: 15px;
+  /* Adjust the radius as needed */
+}
+
+
+
+.square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* This will ensure the image covers the entire square without distortion */
+  border-radius: 15px;
+  /* Match the border radius of the parent */
+}
+
+
