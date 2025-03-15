@@ -13,7 +13,7 @@
         <div class="col-md-12 grid-margin">
             <div class="page-header">
                 <h3 class="page-title">
-                    Biaya Rental Minggu
+                    Tambahan Biaya Rental Weekend
                 </h3>
                 <nav>
 
@@ -27,7 +27,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group row">
-                                    <label class="col-sm-2 col-form-label">Biaya Rental Hari Minggu</label>
+                                    <label class="col-sm-2 col-form-label">Tambahan Biaya Rental Weekend</label>
                                     <div class="col-sm-10">
                                         <input type="text" name="biaya_rm" class="form-control rupiahNumber"
 

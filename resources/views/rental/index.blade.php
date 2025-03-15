@@ -214,7 +214,7 @@
             var value = $(this).val();
             if (value !== 'kosong') {
                 $.ajax({
-                    url: '/rental/check-stock/' + value,
+                    url: '/sewa-ps/check-stock/' + value,
                     method: 'get',
                     dataType: 'json',
                     success: function (response) {
@@ -257,7 +257,7 @@
                 // console.log("Tanggal Akhir:", tanggal_akhir);
                 // console.log("Biaya:", biaya);
                 $.ajax({
-                    url: "{{ route('rental.store') }}",
+                    url: "{{ route('sewa-ps.store') }}",
                     method: 'POST',
                     data: {
                         jenis_ps: jenis_ps,

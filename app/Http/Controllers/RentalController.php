@@ -41,7 +41,7 @@ class RentalController extends Controller
         return Validator::make($request, $rule, $pesan);
     }
     public function index(Request $request) {
-        $get_module = get_module_id('rental');
+        $get_module = get_module_id('sewa-ps');
         if (!notAccessBackHome($get_module)) {
             return redirect('/home');
         }

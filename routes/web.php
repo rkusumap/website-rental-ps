@@ -173,13 +173,13 @@ Route::middleware(['auth'])->group(function () {
     Route::resource("stock-opname", StockOpnameController::class);
 
     //rental
-    Route::prefix('rental')->group(function() {
+    Route::prefix('sewa-ps')->group(function() {
         Route::get('/', [RentalController::class, 'index']);
         Route::get('/check-stock/{id}', [RentalController::class, 'check_stock']);
     });
     Route::get('/get-events', [RentalController::class, 'getEvents']);
     Route::get('/events-by-date', [RentalController::class, 'getByDate']);
-    Route::resource("rental", RentalController::class);
+    Route::resource("sewa-ps", RentalController::class);
 
     //biaya rental weekend
     Route::resource("biaya-weekend", RentalMingguController::class);

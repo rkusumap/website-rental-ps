@@ -8,7 +8,7 @@ use App\Models\Customer;
 use App\Models\Transaction;
 use App\Models\TransactionDetail;
 use App\Models\StockOpname;
-use App\Models\MethodPayment;
+use App\Models\Rental;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Validator;
@@ -27,8 +27,8 @@ class HomeController extends Controller
             // return view('dashboard');
             return redirect('/rental');
         }
-
-        return view('dashboard');
+        $pemasukanRental = Rental::where('payment_status_rental','success')->sum('grand_total_rental');
+        return view('dashboard',compact('pemasukanRental'));
     }
 
 }

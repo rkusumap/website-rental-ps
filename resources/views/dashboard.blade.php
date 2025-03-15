@@ -28,7 +28,22 @@
         <div class="col-md-12 mb-3">
             <div class="card">
                 <div class="card-body">
-
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <b>
+                                        Total Pemasukan Rental
+                                    </b>
+                                    <div class="row mt-3">
+                                        <div class="col-md-12">
+                                            <b id="total_penjualan">Rp {{rupiah_format($pemasukanRental)}}</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
