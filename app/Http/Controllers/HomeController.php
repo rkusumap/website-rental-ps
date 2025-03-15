@@ -25,7 +25,7 @@ class HomeController extends Controller
 
         if (Auth::user()->role->code_level == 'CUSTOMER') {
             // return view('dashboard');
-            return redirect('/rental');
+            return redirect('/sewa-ps');
         }
         $pemasukanRental = Rental::where('payment_status_rental','success')->sum('grand_total_rental');
         return view('dashboard',compact('pemasukanRental'));
