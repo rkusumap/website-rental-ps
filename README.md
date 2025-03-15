@@ -14,7 +14,7 @@ cd <NAMA_FOLDER_PROJECT>
 ## 🗄️ 2. Buat Database & Import SQL
 
 1. Buat database baru di MySQL.
-2. Import file `.sql` yang telah disediakan ke dalam database tersebut.
+2. Import file `.sql` yang telah disediakan ke dalam database tersebut (gunakan `db_rental_ps.sql`).
 
 ## 🔧 3. Konfigurasi Environment
 
