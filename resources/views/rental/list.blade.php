@@ -178,7 +178,7 @@
         var status_rental = $('#status_rental').val();
         var id_rental = $('#id_rental').val();
         $.ajax({
-            url: "/list-rental/"+id_rental,
+            url: "/list-pemesanan/"+id_rental,
             method: 'post',
             dataType: 'json',
             data: {
@@ -206,7 +206,7 @@
         var id = $(this).data('id');
 
         $.ajax({
-            url: "/list-rental/rental-show/"+id,
+            url: "/list-pemesanan/rental-show/"+id,
             method: 'get',
             dataType: 'json',
             success: function (response) {
@@ -226,7 +226,7 @@
     $(document).on('click','.btn-detail',function () {
         var id = $(this).data('id');
         $.ajax({
-            url: "/list-rental/"+id,
+            url: "/list-pemesanan/"+id,
             method: 'get',
             dataType: 'json',
             success: function (response) {
@@ -252,7 +252,7 @@
                     processing: true,
                     serverSide: true,
                     stateSave : true,
-                    ajax: '/list-rental/json',
+                    ajax: '/list-pemesanan/json',
                     columns: [
                         { data: 'DT_RowIndex', name: 'DT_RowIndex', orderable: false, searchable: false },
                         { data: 'code_rental', name: 'code_rental' },
@@ -299,7 +299,7 @@
                 $.ajax({
                     type: 		'ajax',
                     method: 	'get',
-                    url: 		'/list-rental/delete/' + kode,
+                    url: 		'/list-pemesanan/delete/' + kode,
                     async: 		true,
                     dataType: 	'json',
                     success: 	function(response){

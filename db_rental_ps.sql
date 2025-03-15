@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 15, 2025 at 07:30 AM
+-- Generation Time: Mar 15, 2025 at 03:30 PM
 -- Server version: 9.0.1
 -- PHP Version: 8.2.25
 
@@ -1283,7 +1283,54 @@ INSERT INTO `logs` (`id`, `user_id`, `ip`, `activity`, `session_id`, `name_table
 (1150, '1', '127.0.0.1', 'Update Rental', 'ta1w26LJ5xp1CkDTeL3Y0VE8Lg0uln7cMxyIMxMi', 'Rental', 'd2378899-6ee5-4ddb-96a4-fec6920f5b31', '{\"id_rental\":\"d2378899-6ee5-4ddb-96a4-fec6920f5b31\",\"code_rental\":\"2025031400004\",\"user_rental\":9,\"title_rental\":\"PS 4 - radhit\",\"one_day_rental\":1,\"grand_total_rental\":30000,\"date_start_rental\":\"2025-03-26\",\"date_akhir_rental\":\"2025-03-26\",\"order_id\":\"1389538150\",\"snap_token\":\"08f8e06f-3c79-4616-a396-4aeabeb567a5\",\"payment_status_rental\":\"success\",\"return_status_rental\":\"1\",\"created_at\":\"2025-03-14T15:51:13.000000Z\",\"updated_at\":\"2025-03-15T06:13:16.000000Z\",\"deleted_at\":null}', '2025-03-15 06:13:16', NULL),
 (1151, '1', '127.0.0.1', 'Update Rental', 'ta1w26LJ5xp1CkDTeL3Y0VE8Lg0uln7cMxyIMxMi', 'Rental', 'd2378899-6ee5-4ddb-96a4-fec6920f5b31', '{\"id_rental\":\"d2378899-6ee5-4ddb-96a4-fec6920f5b31\",\"code_rental\":\"2025031400004\",\"user_rental\":9,\"title_rental\":\"PS 4 - radhit\",\"one_day_rental\":1,\"grand_total_rental\":30000,\"date_start_rental\":\"2025-03-26\",\"date_akhir_rental\":\"2025-03-26\",\"order_id\":\"1389538150\",\"snap_token\":\"08f8e06f-3c79-4616-a396-4aeabeb567a5\",\"payment_status_rental\":\"success\",\"return_status_rental\":\"2\",\"created_at\":\"2025-03-14T15:51:13.000000Z\",\"updated_at\":\"2025-03-15T06:14:24.000000Z\",\"deleted_at\":null}', '2025-03-15 06:14:24', NULL),
 (1152, '1', '127.0.0.1', 'Update Rental', 'ta1w26LJ5xp1CkDTeL3Y0VE8Lg0uln7cMxyIMxMi', 'Rental', 'd2378899-6ee5-4ddb-96a4-fec6920f5b31', '{\"id_rental\":\"d2378899-6ee5-4ddb-96a4-fec6920f5b31\",\"code_rental\":\"2025031400004\",\"user_rental\":9,\"title_rental\":\"PS 4 - radhit\",\"one_day_rental\":1,\"grand_total_rental\":30000,\"date_start_rental\":\"2025-03-26\",\"date_akhir_rental\":\"2025-03-26\",\"order_id\":\"1389538150\",\"snap_token\":\"08f8e06f-3c79-4616-a396-4aeabeb567a5\",\"payment_status_rental\":\"success\",\"return_status_rental\":\"3\",\"created_at\":\"2025-03-14T15:51:13.000000Z\",\"updated_at\":\"2025-03-15T06:15:29.000000Z\",\"deleted_at\":null}', '2025-03-15 06:15:29', NULL),
-(1153, '9', '127.0.0.1', 'Add Rental', 'gC184eZJvI8EjZfhzad52khTjoBjXZgIpMcmINKF', 'Rental', '7695664f-903c-4920-bebf-aafb1c0472c0', '{\"code_rental\":\"2025031500005\",\"user_rental\":9,\"title_rental\":\"PS 4 - radhit\",\"one_day_rental\":\"1\",\"date_start_rental\":\"2025-03-27\",\"date_akhir_rental\":\"2025-03-27\",\"grand_total_rental\":\"30000\",\"id_rental\":\"7695664f-903c-4920-bebf-aafb1c0472c0\",\"updated_at\":\"2025-03-15T06:26:43.000000Z\",\"created_at\":\"2025-03-15T06:26:43.000000Z\"}', '2025-03-15 06:26:43', NULL);
+(1153, '9', '127.0.0.1', 'Add Rental', 'gC184eZJvI8EjZfhzad52khTjoBjXZgIpMcmINKF', 'Rental', '7695664f-903c-4920-bebf-aafb1c0472c0', '{\"code_rental\":\"2025031500005\",\"user_rental\":9,\"title_rental\":\"PS 4 - radhit\",\"one_day_rental\":\"1\",\"date_start_rental\":\"2025-03-27\",\"date_akhir_rental\":\"2025-03-27\",\"grand_total_rental\":\"30000\",\"id_rental\":\"7695664f-903c-4920-bebf-aafb1c0472c0\",\"updated_at\":\"2025-03-15T06:26:43.000000Z\",\"created_at\":\"2025-03-15T06:26:43.000000Z\"}', '2025-03-15 06:26:43', NULL),
+(1154, '1', '127.0.0.1', 'Update Level', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Level', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '{\"id_level\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"code_level\":\"ADM\",\"name_level\":\"Admin\",\"created_at\":\"2024-11-06T04:23:09.000000Z\",\"updated_at\":\"2024-11-06T04:44:31.000000Z\",\"deleted_at\":null}', '2025-03-15 14:44:58', NULL),
+(1155, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'cf01b02c-6cae-4fd0-80ef-9db2742b63d7', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"ee915d3c-cc5f-472e-8bd5-2e1f1cf2acf2\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"cf01b02c-6cae-4fd0-80ef-9db2742b63d7\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1156, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'b0f629d7-b6db-4112-b803-9f2dc2ed10f5', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"43008b50-3edd-457a-ab79-419a943b3d7a\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"b0f629d7-b6db-4112-b803-9f2dc2ed10f5\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1157, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'cca0d4bc-0982-45bb-8b8e-1c273ac5f692', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"72440edd-20d3-4546-9714-0c2e240ef73c\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"cca0d4bc-0982-45bb-8b8e-1c273ac5f692\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1158, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '8477e717-f6cd-4b7d-81f2-5cd238460ad1', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"2eb112c9-8696-46e1-81e3-6201ce2eb0d7\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"8477e717-f6cd-4b7d-81f2-5cd238460ad1\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1159, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '2aaa3c20-8602-4d48-a763-070e003a7086', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"6f91c4e3-cc0e-42d2-918f-85951e69f532\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"2aaa3c20-8602-4d48-a763-070e003a7086\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1160, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'd859a88f-bafd-4022-8459-82897fcbda9f', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"8713509d-abd3-4d80-8cb0-89f35a28075a\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"d859a88f-bafd-4022-8459-82897fcbda9f\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1161, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'ef7a9802-c9e1-4f5b-addd-1d4245eb0480', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"b1027a5c-c05a-4927-aa9e-9154970d78a6\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"ef7a9802-c9e1-4f5b-addd-1d4245eb0480\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1162, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '812ca8b9-5a54-4972-97e0-9bf07660794d', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"6d5bff09-85f2-4ffe-8199-e24a8a5ef565\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"812ca8b9-5a54-4972-97e0-9bf07660794d\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1163, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '934a66da-5964-49df-8fd3-edfa067dd8bd', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"efb10212-7d6b-4654-985b-fbd2b8f8e1c0\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"934a66da-5964-49df-8fd3-edfa067dd8bd\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1164, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '4fdb05b6-ab2f-4bfc-bec3-b89ca2238a48', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"18b42d8a-74c0-42ee-b3ac-9cb557ea26c2\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"4fdb05b6-ab2f-4bfc-bec3-b89ca2238a48\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1165, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '2691abcc-e5f7-4092-86eb-da5d7bb6a962', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"48a477ce-7f11-4b91-a6dc-240c1ab02c5b\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"2691abcc-e5f7-4092-86eb-da5d7bb6a962\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1166, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'f97d5b57-002b-439d-888c-cbc5381834e9', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"e7d15d03-0173-49e7-91f3-a945bca141f2\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"f97d5b57-002b-439d-888c-cbc5381834e9\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1167, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'a93befe6-760f-4f4e-bc21-71961a6e46dc', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"909fdb29-8167-4efa-88d6-3b51234d6f1a\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"a93befe6-760f-4f4e-bc21-71961a6e46dc\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1168, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'b360c971-27cc-4ea1-9230-e277d0328d5d', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"28caf3d7-b760-43f6-96e0-1bd771afdb02\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"b360c971-27cc-4ea1-9230-e277d0328d5d\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1169, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '2f723d5c-8845-48e5-83f0-bc9f8e474623', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"cb6e6460-30fc-4e70-a63b-05a5b2a99f08\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"2f723d5c-8845-48e5-83f0-bc9f8e474623\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1170, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'd34ccc47-d43d-4817-9562-082cabea9a55', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"7c10d4c3-2311-45c6-b502-a65c871bf260\",\"action_gmd\":\"read\",\"id_gmd\":\"d34ccc47-d43d-4817-9562-082cabea9a55\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1171, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '54d3a298-9176-4f98-9a37-ed105dd7ab1d', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"b97b8d79-8402-4c70-88d2-0d2c1d16ac85\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"54d3a298-9176-4f98-9a37-ed105dd7ab1d\",\"updated_at\":\"2025-03-15T14:44:58.000000Z\",\"created_at\":\"2025-03-15T14:44:58.000000Z\"}', '2025-03-15 14:44:58', NULL),
+(1172, '1', '127.0.0.1', 'Update Level', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Level', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '{\"id_level\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"code_level\":\"ADM\",\"name_level\":\"Admin\",\"created_at\":\"2024-11-06T04:23:09.000000Z\",\"updated_at\":\"2024-11-06T04:44:31.000000Z\",\"deleted_at\":null}', '2025-03-15 14:48:31', NULL),
+(1173, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '6acbef5b-820b-448f-9d60-ab33ea5e49e1', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"ee915d3c-cc5f-472e-8bd5-2e1f1cf2acf2\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"6acbef5b-820b-448f-9d60-ab33ea5e49e1\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1174, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'ad598a89-8e42-4617-8bf0-5d821c8a97c0', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"43008b50-3edd-457a-ab79-419a943b3d7a\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"ad598a89-8e42-4617-8bf0-5d821c8a97c0\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1175, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '84e7c2a1-1ef4-4fc5-82e1-29c4a1367de7', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"72440edd-20d3-4546-9714-0c2e240ef73c\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"84e7c2a1-1ef4-4fc5-82e1-29c4a1367de7\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1176, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'f5af835d-1abb-4cfe-be10-c15c50d422f5', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"2eb112c9-8696-46e1-81e3-6201ce2eb0d7\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"f5af835d-1abb-4cfe-be10-c15c50d422f5\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1177, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '8f0895aa-5be1-406a-9784-e1abd072b770', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"6f91c4e3-cc0e-42d2-918f-85951e69f532\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"8f0895aa-5be1-406a-9784-e1abd072b770\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1178, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '0010abb2-3a63-4b4a-8ad6-fe228eaff083', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"8713509d-abd3-4d80-8cb0-89f35a28075a\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"0010abb2-3a63-4b4a-8ad6-fe228eaff083\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1179, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '888571a0-759f-4e4e-a41a-54fa7f50d643', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"b1027a5c-c05a-4927-aa9e-9154970d78a6\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"888571a0-759f-4e4e-a41a-54fa7f50d643\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1180, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '545b3ac4-656a-48fd-a57c-a8fe749884ea', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"6d5bff09-85f2-4ffe-8199-e24a8a5ef565\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"545b3ac4-656a-48fd-a57c-a8fe749884ea\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1181, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '5a784925-d4b7-435e-8bb9-216d6fee96f6', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"efb10212-7d6b-4654-985b-fbd2b8f8e1c0\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"5a784925-d4b7-435e-8bb9-216d6fee96f6\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1182, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'd43e775f-84b3-4590-9f67-7c000224200e', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"18b42d8a-74c0-42ee-b3ac-9cb557ea26c2\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"d43e775f-84b3-4590-9f67-7c000224200e\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1183, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'a3a5d2d2-0db0-4e03-a31c-01722dcfc0c2', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"48a477ce-7f11-4b91-a6dc-240c1ab02c5b\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"a3a5d2d2-0db0-4e03-a31c-01722dcfc0c2\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1184, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '8393aeeb-2f99-483c-9c23-afe8e3259410', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"e7d15d03-0173-49e7-91f3-a945bca141f2\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"8393aeeb-2f99-483c-9c23-afe8e3259410\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1185, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'beca4f9b-16cc-4cf4-9a8d-3ec6ece8d4cc', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"909fdb29-8167-4efa-88d6-3b51234d6f1a\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"beca4f9b-16cc-4cf4-9a8d-3ec6ece8d4cc\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1186, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', '79f97f33-d8dd-4515-92e7-6c7867745601', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"28caf3d7-b760-43f6-96e0-1bd771afdb02\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"79f97f33-d8dd-4515-92e7-6c7867745601\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1187, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'fdef23e7-de75-40ab-8de4-2615f049954a', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"cb6e6460-30fc-4e70-a63b-05a5b2a99f08\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"fdef23e7-de75-40ab-8de4-2615f049954a\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1188, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'f5383a04-8ae4-4789-99d6-f3e0667d7872', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"436560e6-cf37-4c45-ad56-640c44d27954\",\"action_gmd\":\"read\",\"id_gmd\":\"f5383a04-8ae4-4789-99d6-f3e0667d7872\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1189, '1', '127.0.0.1', 'Insert Role', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Role', 'ab29c36e-5560-4517-8f93-26a4c8bf987f', '{\"level_gmd\":\"5bcd3787-5e3d-4921-ac8c-11a5110d85a1\",\"module_gmd\":\"b97b8d79-8402-4c70-88d2-0d2c1d16ac85\",\"action_gmd\":\"create,read,update,delete\",\"id_gmd\":\"ab29c36e-5560-4517-8f93-26a4c8bf987f\",\"updated_at\":\"2025-03-15T14:48:31.000000Z\",\"created_at\":\"2025-03-15T14:48:31.000000Z\"}', '2025-03-15 14:48:31', NULL),
+(1190, '1', '127.0.0.1', 'Update Module', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Module', '28caf3d7-b760-43f6-96e0-1bd771afdb02', '{\"id_module\":\"28caf3d7-b760-43f6-96e0-1bd771afdb02\",\"induk_module\":\"8713509d-abd3-4d80-8cb0-89f35a28075a\",\"code_module\":\"TRM\",\"name_module\":\"Tambahan Rental Hari Minggu\",\"link_module\":\"biaya-weekend\",\"description_module\":\"-\",\"icon_module\":\"fa fa-circle\",\"action_module\":\"create,read,update,delete\",\"order_module\":\"10\",\"created_at\":\"2025-03-14T09:18:59.000000Z\",\"updated_at\":\"2025-03-15T14:51:02.000000Z\",\"deleted_at\":null}', '2025-03-15 14:51:02', NULL),
+(1191, '1', '127.0.0.1', 'Update Module', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Module', '28caf3d7-b760-43f6-96e0-1bd771afdb02', '{\"id_module\":\"28caf3d7-b760-43f6-96e0-1bd771afdb02\",\"induk_module\":\"8713509d-abd3-4d80-8cb0-89f35a28075a\",\"code_module\":\"TRM\",\"name_module\":\"Tambahan Rental Weekend\",\"link_module\":\"biaya-weekend\",\"description_module\":\"-\",\"icon_module\":\"fa fa-circle\",\"action_module\":\"create,read,update,delete\",\"order_module\":\"10\",\"created_at\":\"2025-03-14T09:18:59.000000Z\",\"updated_at\":\"2025-03-15T14:51:26.000000Z\",\"deleted_at\":null}', '2025-03-15 14:51:26', NULL),
+(1192, '1', '127.0.0.1', 'Update Module', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Module', 'b97b8d79-8402-4c70-88d2-0d2c1d16ac85', '{\"id_module\":\"b97b8d79-8402-4c70-88d2-0d2c1d16ac85\",\"induk_module\":0,\"code_module\":\"LRP\",\"name_module\":\"Data Rental PS\",\"link_module\":\"list-pemesanan\",\"description_module\":\"-\",\"icon_module\":\"fa fa-usd\",\"action_module\":\"create,read,update,delete\",\"order_module\":\"10\",\"created_at\":\"2025-03-15T05:26:39.000000Z\",\"updated_at\":\"2025-03-15T14:53:42.000000Z\",\"deleted_at\":null}', '2025-03-15 14:53:42', NULL),
+(1193, '1', '127.0.0.1', 'Update Module', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Module', 'b97b8d79-8402-4c70-88d2-0d2c1d16ac85', '{\"id_module\":\"b97b8d79-8402-4c70-88d2-0d2c1d16ac85\",\"induk_module\":0,\"code_module\":\"LRP\",\"name_module\":\"Data Rental PS\",\"link_module\":\"list-pemesanan\",\"description_module\":\"-\",\"icon_module\":\"fa fa-money\",\"action_module\":\"create,read,update,delete\",\"order_module\":\"10\",\"created_at\":\"2025-03-15T05:26:39.000000Z\",\"updated_at\":\"2025-03-15T14:55:51.000000Z\",\"deleted_at\":null}', '2025-03-15 14:55:51', NULL),
+(1194, '1', '127.0.0.1', 'Update Module', 'gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 'Module', 'b97b8d79-8402-4c70-88d2-0d2c1d16ac85', '{\"id_module\":\"b97b8d79-8402-4c70-88d2-0d2c1d16ac85\",\"induk_module\":0,\"code_module\":\"LRP\",\"name_module\":\"Data Rental PS\",\"link_module\":\"list-pemesanan\",\"description_module\":\"-\",\"icon_module\":\"fa fa-money-bill\",\"action_module\":\"create,read,update,delete\",\"order_module\":\"10\",\"created_at\":\"2025-03-15T05:26:39.000000Z\",\"updated_at\":\"2025-03-15T14:56:00.000000Z\",\"deleted_at\":null}', '2025-03-15 14:56:00', NULL),
+(1195, 'register_user', '127.0.0.1', 'Add User', 'Yn9e9XG87xeqUVfDCvtCqSkM8A6cRRMX3FV1rs88', 'User', '11', '{\"customer_user\":\"a27acd30-e3de-49e0-9c29-6e7c30347a44\",\"name\":\"kusuma\",\"level_user\":\"d0c09144-9a2f-4b17-8241-d61e21823837\",\"status_user\":1,\"email\":\"kusuma@mail.com\",\"username\":\"kusuma\",\"updated_at\":\"2025-03-15T15:05:48.000000Z\",\"created_at\":\"2025-03-15T15:05:48.000000Z\",\"id\":11}', '2025-03-15 15:05:48', NULL),
+(1196, '11', '127.0.0.1', 'Add Rental', '2OBukgDRRrg1fqtUF2umpiA0TFsjxEHgDS1Ogihb', 'Rental', '0cd02413-893b-4468-a15c-185f2f59f818', '{\"code_rental\":\"2025031500006\",\"user_rental\":11,\"title_rental\":\"PS 4 - kusuma\",\"one_day_rental\":\"1\",\"date_start_rental\":\"2025-03-12\",\"date_akhir_rental\":\"2025-03-12\",\"grand_total_rental\":\"30000\",\"id_rental\":\"0cd02413-893b-4468-a15c-185f2f59f818\",\"updated_at\":\"2025-03-15T15:19:22.000000Z\",\"created_at\":\"2025-03-15T15:19:22.000000Z\"}', '2025-03-15 15:19:22', NULL),
+(1197, '11', '127.0.0.1', 'Add Rental', '2OBukgDRRrg1fqtUF2umpiA0TFsjxEHgDS1Ogihb', 'Rental', '0e03db4c-3a1e-48e2-91fc-a4d26d2db5eb', '{\"code_rental\":\"2025031500007\",\"user_rental\":11,\"title_rental\":\"PS 5 - kusuma\",\"one_day_rental\":\"1\",\"date_start_rental\":\"2025-03-11\",\"date_akhir_rental\":\"2025-03-11\",\"grand_total_rental\":\"40000\",\"id_rental\":\"0e03db4c-3a1e-48e2-91fc-a4d26d2db5eb\",\"updated_at\":\"2025-03-15T15:20:00.000000Z\",\"created_at\":\"2025-03-15T15:20:00.000000Z\"}', '2025-03-15 15:20:00', NULL),
+(1198, '11', '127.0.0.1', 'Add Rental', '2OBukgDRRrg1fqtUF2umpiA0TFsjxEHgDS1Ogihb', 'Rental', '5f78a390-91a3-4657-b026-ce2641e91ae6', '{\"code_rental\":\"2025031500008\",\"user_rental\":11,\"title_rental\":\"PS 5 - kusuma\",\"one_day_rental\":\"0\",\"date_start_rental\":\"2025-03-10\",\"date_akhir_rental\":\"2025-03-15\",\"grand_total_rental\":\"290000\",\"id_rental\":\"5f78a390-91a3-4657-b026-ce2641e91ae6\",\"updated_at\":\"2025-03-15T15:25:18.000000Z\",\"created_at\":\"2025-03-15T15:25:18.000000Z\"}', '2025-03-15 15:25:18', NULL),
+(1199, '11', '127.0.0.1', 'Add Rental', '2OBukgDRRrg1fqtUF2umpiA0TFsjxEHgDS1Ogihb', 'Rental', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '{\"code_rental\":\"2025031500009\",\"user_rental\":11,\"title_rental\":\"PS 5 - kusuma\",\"one_day_rental\":\"0\",\"date_start_rental\":\"2025-03-03\",\"date_akhir_rental\":\"2025-03-14\",\"grand_total_rental\":\"580000\",\"id_rental\":\"f70982c2-45ed-49fc-8ff6-05a64c6cb0a2\",\"updated_at\":\"2025-03-15T15:26:40.000000Z\",\"created_at\":\"2025-03-15T15:26:40.000000Z\"}', '2025-03-15 15:26:40', NULL),
+(1200, '1', '127.0.0.1', 'Update Module', 'phQhdganVuvZyPUG14Jby2Iixo8dGwAGuXqhid8I', 'Module', 'b97b8d79-8402-4c70-88d2-0d2c1d16ac85', '{\"id_module\":\"b97b8d79-8402-4c70-88d2-0d2c1d16ac85\",\"induk_module\":0,\"code_module\":\"LRP\",\"name_module\":\"Bill Rental PS\",\"link_module\":\"list-pemesanan\",\"description_module\":\"-\",\"icon_module\":\"fa fa-money-bill\",\"action_module\":\"create,read,update,delete\",\"order_module\":\"10\",\"created_at\":\"2025-03-15T05:26:39.000000Z\",\"updated_at\":\"2025-03-15T15:30:11.000000Z\",\"deleted_at\":null}', '2025-03-15 15:30:11', NULL);
 
 -- --------------------------------------------------------
 
@@ -1324,7 +1371,61 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (21, '2025_02_19_194531_create_tb_log_stock_by_cashier_table', 17),
 (22, '2025_03_14_131530_create_tb_rental_table', 18),
 (23, '2025_03_14_131556_create_tb_rental_detail_table', 18),
-(24, '2025_03_14_161959_create_ms_rental_minggu_table', 19);
+(24, '2025_03_14_161959_create_ms_rental_minggu_table', 19),
+(25, '2025_03_15_143421_create_cache_table', 0),
+(26, '2025_03_15_143421_create_cache_locks_table', 0),
+(27, '2025_03_15_143421_create_failed_jobs_table', 0),
+(28, '2025_03_15_143421_create_job_batches_table', 0),
+(29, '2025_03_15_143421_create_jobs_table', 0),
+(30, '2025_03_15_143421_create_logs_table', 0),
+(31, '2025_03_15_143421_create_ms_brand_table', 0),
+(32, '2025_03_15_143421_create_ms_category_table', 0),
+(33, '2025_03_15_143421_create_ms_customer_table', 0),
+(34, '2025_03_15_143421_create_ms_groupmodule_table', 0),
+(35, '2025_03_15_143421_create_ms_level_table', 0),
+(36, '2025_03_15_143421_create_ms_method_payment_table', 0),
+(37, '2025_03_15_143421_create_ms_module_table', 0),
+(38, '2025_03_15_143421_create_ms_option_table', 0),
+(39, '2025_03_15_143421_create_ms_product_table', 0),
+(40, '2025_03_15_143421_create_ms_rental_minggu_table', 0),
+(41, '2025_03_15_143421_create_ms_supplier_table', 0),
+(42, '2025_03_15_143421_create_ms_unit_table', 0),
+(43, '2025_03_15_143421_create_password_reset_tokens_table', 0),
+(44, '2025_03_15_143421_create_personal_access_tokens_table', 0),
+(45, '2025_03_15_143421_create_sessions_table', 0),
+(46, '2025_03_15_143421_create_tb_rental_table', 0),
+(47, '2025_03_15_143421_create_tb_rental_detail_table', 0),
+(48, '2025_03_15_143421_create_tb_stock_opname_table', 0),
+(49, '2025_03_15_143421_create_tb_transaction_table', 0),
+(50, '2025_03_15_143421_create_tb_transaction_detail_table', 0),
+(51, '2025_03_15_143421_create_users_table', 0),
+(52, '2025_03_15_144137_create_cache_table', 0),
+(53, '2025_03_15_144137_create_cache_locks_table', 0),
+(54, '2025_03_15_144137_create_failed_jobs_table', 0),
+(55, '2025_03_15_144137_create_job_batches_table', 0),
+(56, '2025_03_15_144137_create_jobs_table', 0),
+(57, '2025_03_15_144137_create_logs_table', 0),
+(58, '2025_03_15_144137_create_ms_brand_table', 0),
+(59, '2025_03_15_144137_create_ms_category_table', 0),
+(60, '2025_03_15_144137_create_ms_customer_table', 0),
+(61, '2025_03_15_144137_create_ms_groupmodule_table', 0),
+(62, '2025_03_15_144137_create_ms_level_table', 0),
+(63, '2025_03_15_144137_create_ms_method_payment_table', 0),
+(64, '2025_03_15_144137_create_ms_module_table', 0),
+(65, '2025_03_15_144137_create_ms_option_table', 0),
+(66, '2025_03_15_144137_create_ms_product_table', 0),
+(67, '2025_03_15_144137_create_ms_rental_minggu_table', 0),
+(68, '2025_03_15_144137_create_ms_supplier_table', 0),
+(69, '2025_03_15_144137_create_ms_unit_table', 0),
+(70, '2025_03_15_144137_create_password_reset_tokens_table', 0),
+(71, '2025_03_15_144137_create_personal_access_tokens_table', 0),
+(72, '2025_03_15_144137_create_sessions_table', 0),
+(73, '2025_03_15_144137_create_tb_rental_table', 0),
+(74, '2025_03_15_144137_create_tb_rental_detail_table', 0),
+(75, '2025_03_15_144137_create_tb_stock_opname_table', 0),
+(76, '2025_03_15_144137_create_tb_transaction_table', 0),
+(77, '2025_03_15_144137_create_tb_transaction_detail_table', 0),
+(78, '2025_03_15_144137_create_users_table', 0);
 
 -- --------------------------------------------------------
 
@@ -1409,6 +1510,7 @@ INSERT INTO `ms_customer` (`id_customer`, `name_customer`, `phone_customer`, `cr
 ('53e6a362-69d8-46c2-97d4-5fedcf37d2e4', 'Budi', '08412354', '2025-01-07 02:22:33', '2025-01-07 02:23:12', '2025-01-07 02:23:12'),
 ('6110ddc4-c979-44de-82b9-ccacf1104fae', 'radhit', '089434122', '2025-03-13 13:34:51', '2025-03-13 13:37:16', '2025-03-13 13:37:16'),
 ('929dc51d-20e6-4fc9-a822-16a573e64e9b', 'tes12', '12355', '2025-03-13 07:47:32', '2025-03-13 07:47:44', '2025-03-13 07:47:44'),
+('a27acd30-e3de-49e0-9c29-6e7c30347a44', 'kusuma', '08320129389', '2025-03-15 15:05:48', '2025-03-15 15:05:48', NULL),
 ('afb8a90a-f85f-4b5d-8457-228426256723', 'radhit', '08943412', '2025-03-13 10:55:26', '2025-03-13 10:55:26', NULL),
 ('bd6911ff-c4d6-45d8-af3a-6a671d5f730b', 'Joko', '0813546878', '2025-01-16 02:29:39', '2025-03-13 07:49:57', NULL);
 
@@ -1432,44 +1534,45 @@ CREATE TABLE `ms_groupmodule` (
 --
 
 INSERT INTO `ms_groupmodule` (`id_gmd`, `level_gmd`, `module_gmd`, `action_gmd`, `created_at`, `updated_at`) VALUES
+('0010abb2-3a63-4b4a-8ad6-fe228eaff083', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '8713509d-abd3-4d80-8cb0-89f35a28075a', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
 ('01c3e8b2-2dba-4403-b77f-a4408243c363', '91855dc7-376c-4194-989a-f7b0920f6f5a', '9dddd9da-877e-4093-be1d-05c9812e9884', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33'),
-('080e6b66-a32b-4946-b7a6-b79b017cba40', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '909fdb29-8167-4efa-88d6-3b51234d6f1a', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
 ('0a260be6-66c1-411b-9508-feb5ad861647', '91855dc7-376c-4194-989a-f7b0920f6f5a', '6f91c4e3-cc0e-42d2-918f-85951e69f532', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33'),
 ('0b721a8c-cdec-4c2d-be2b-ed1fb9314e03', '91855dc7-376c-4194-989a-f7b0920f6f5a', '75a215f1-27b7-4cf1-b45d-6c32f045817c', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33'),
-('0cf2bddb-6aee-4923-b6ec-39592e9cf3da', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'ee915d3c-cc5f-472e-8bd5-2e1f1cf2acf2', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
-('1c1f2afc-4bee-4eb3-830c-c3d717a30612', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '28caf3d7-b760-43f6-96e0-1bd771afdb02', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
 ('1f28ef86-ab0c-478a-80c7-e10e424c15f5', 'c867fd38-2da9-49a2-bc09-510bae1eb4de', 'ee915d3c-cc5f-472e-8bd5-2e1f1cf2acf2', 'create,read,update,delete', '2024-11-07 06:17:15', '2024-11-07 06:17:15'),
 ('255a4983-2975-4fce-9150-11a16bac2c99', '0b954732-c4d1-4227-81ab-d9ed6afd761e', '4591ef0a-563f-446d-80e0-5eb024117f4d', 'create,read,update,delete', '2025-01-14 08:00:09', '2025-01-14 08:00:09'),
-('2630b740-6477-4f0e-a15d-b701b41aca13', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '48a477ce-7f11-4b91-a6dc-240c1ab02c5b', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
 ('2d851d14-335e-4c00-8fc9-59cf0838d71d', '0b954732-c4d1-4227-81ab-d9ed6afd761e', '72440edd-20d3-4546-9714-0c2e240ef73c', 'create,read,update,delete', '2025-01-14 08:00:09', '2025-01-14 08:00:09'),
 ('3c2ab12f-2c95-41c1-be3b-2b4ed611f9a9', '0b954732-c4d1-4227-81ab-d9ed6afd761e', 'ee915d3c-cc5f-472e-8bd5-2e1f1cf2acf2', 'create,read,update,delete', '2025-01-14 08:00:09', '2025-01-14 08:00:09'),
 ('41f20d3d-2451-4c4a-b2e9-70240df62cef', '91855dc7-376c-4194-989a-f7b0920f6f5a', 'ee915d3c-cc5f-472e-8bd5-2e1f1cf2acf2', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33'),
 ('448a0866-d817-454c-a8dc-8200423c684a', '91855dc7-376c-4194-989a-f7b0920f6f5a', '75807c1a-54c3-4b21-85f9-1208b77cb05f', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33'),
 ('4c7d3cc8-c36f-4129-a461-b32b52f4bb27', 'd0c09144-9a2f-4b17-8241-d61e21823837', '7c10d4c3-2311-45c6-b502-a65c871bf260', 'create,read,update', '2025-03-14 16:04:44', '2025-03-14 16:04:44'),
-('518925cd-e731-40f6-955b-1813ea4c97e6', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '2eb112c9-8696-46e1-81e3-6201ce2eb0d7', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
-('571e6ac9-02e8-47be-8680-3e53576c97a5', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '18b42d8a-74c0-42ee-b3ac-9cb557ea26c2', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
-('5d06da62-44d0-482b-9f4b-49c1d4fbafed', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '6f91c4e3-cc0e-42d2-918f-85951e69f532', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
+('545b3ac4-656a-48fd-a57c-a8fe749884ea', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '6d5bff09-85f2-4ffe-8199-e24a8a5ef565', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
+('5a784925-d4b7-435e-8bb9-216d6fee96f6', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'efb10212-7d6b-4654-985b-fbd2b8f8e1c0', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
 ('675f75c7-65f0-4497-a504-c55ebe7d53f5', '0b954732-c4d1-4227-81ab-d9ed6afd761e', '9dddd9da-877e-4093-be1d-05c9812e9884', 'create,read,update,delete', '2025-01-14 08:00:09', '2025-01-14 08:00:09'),
+('6acbef5b-820b-448f-9d60-ab33ea5e49e1', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'ee915d3c-cc5f-472e-8bd5-2e1f1cf2acf2', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
 ('6c3fb52c-9a2a-4794-83df-86166cbeeb70', '0b954732-c4d1-4227-81ab-d9ed6afd761e', '8713509d-abd3-4d80-8cb0-89f35a28075a', 'create,read,update,delete', '2025-01-14 08:00:09', '2025-01-14 08:00:09'),
-('7ae47619-82db-48f0-a578-59732a532933', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'cb6e6460-30fc-4e70-a63b-05a5b2a99f08', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
-('86092dc5-4836-4b43-b2d2-32a5087e160f', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'b1027a5c-c05a-4927-aa9e-9154970d78a6', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
+('79f97f33-d8dd-4515-92e7-6c7867745601', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '28caf3d7-b760-43f6-96e0-1bd771afdb02', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
+('8393aeeb-2f99-483c-9c23-afe8e3259410', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'e7d15d03-0173-49e7-91f3-a945bca141f2', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
+('84e7c2a1-1ef4-4fc5-82e1-29c4a1367de7', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '72440edd-20d3-4546-9714-0c2e240ef73c', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
 ('863fbe2f-581b-4d94-8af7-8cbae3028c13', '91855dc7-376c-4194-989a-f7b0920f6f5a', '2eb112c9-8696-46e1-81e3-6201ce2eb0d7', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33'),
-('87696125-9c7b-46a7-a245-4586dc3162f7', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '72440edd-20d3-4546-9714-0c2e240ef73c', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
+('888571a0-759f-4e4e-a41a-54fa7f50d643', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'b1027a5c-c05a-4927-aa9e-9154970d78a6', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
 ('88d5e4fa-c47d-454f-a5ad-7b9128a48192', '91855dc7-376c-4194-989a-f7b0920f6f5a', '72440edd-20d3-4546-9714-0c2e240ef73c', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33'),
-('9187121e-5581-4e58-a826-a192ecf72e7b', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '8713509d-abd3-4d80-8cb0-89f35a28075a', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
+('8f0895aa-5be1-406a-9784-e1abd072b770', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '6f91c4e3-cc0e-42d2-918f-85951e69f532', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
 ('9449b7b6-70b2-4ba6-ad25-0014398003b7', 'd0c09144-9a2f-4b17-8241-d61e21823837', '436560e6-cf37-4c45-ad56-640c44d27954', 'create,read,update', '2025-03-14 16:04:44', '2025-03-14 16:04:44'),
-('af04335a-c9e1-4493-81f8-d66c2fd6af9e', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'b97b8d79-8402-4c70-88d2-0d2c1d16ac85', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
-('b0a18d0f-41e1-4586-93f6-d27154d2d160', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'efb10212-7d6b-4654-985b-fbd2b8f8e1c0', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
-('b38afc0f-e389-4b67-9e38-4a231d43be9e', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '6d5bff09-85f2-4ffe-8199-e24a8a5ef565', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
+('a3a5d2d2-0db0-4e03-a31c-01722dcfc0c2', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '48a477ce-7f11-4b91-a6dc-240c1ab02c5b', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
+('ab29c36e-5560-4517-8f93-26a4c8bf987f', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'b97b8d79-8402-4c70-88d2-0d2c1d16ac85', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
+('ad598a89-8e42-4617-8bf0-5d821c8a97c0', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '43008b50-3edd-457a-ab79-419a943b3d7a', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
 ('b4539eb4-3a8b-47b4-b75a-b6674fa053a8', '0b954732-c4d1-4227-81ab-d9ed6afd761e', '1dc132aa-d4f1-4a29-b158-77930199bc79', 'create,read,update,delete', '2025-01-14 08:00:09', '2025-01-14 08:00:09'),
 ('b9b04aa9-a17f-46db-a68e-679f7c87ee53', '91855dc7-376c-4194-989a-f7b0920f6f5a', '43008b50-3edd-457a-ab79-419a943b3d7a', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33'),
-('c7977431-b6d2-4d65-ae04-d57ca0d9e5ac', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'e7d15d03-0173-49e7-91f3-a945bca141f2', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
+('beca4f9b-16cc-4cf4-9a8d-3ec6ece8d4cc', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '909fdb29-8167-4efa-88d6-3b51234d6f1a', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
 ('d3cd9329-b603-4c14-960a-004707764a3e', '91855dc7-376c-4194-989a-f7b0920f6f5a', '8713509d-abd3-4d80-8cb0-89f35a28075a', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33'),
+('d43e775f-84b3-4590-9f67-7c000224200e', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '18b42d8a-74c0-42ee-b3ac-9cb557ea26c2', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
 ('d6294c4a-7ca8-4122-8d06-5beef7436c72', '98845bf3-6c0b-47da-8390-3b657d1195f1', 'ee915d3c-cc5f-472e-8bd5-2e1f1cf2acf2', 'create,read,update,delete', '2024-11-07 06:27:38', '2024-11-07 06:27:38'),
 ('e1f5252d-7fec-4274-b9cb-3a5453633fd1', '0b954732-c4d1-4227-81ab-d9ed6afd761e', '75807c1a-54c3-4b21-85f9-1208b77cb05f', 'create,read,update,delete', '2025-01-14 08:00:09', '2025-01-14 08:00:09'),
-('e30a695d-5d28-4ff8-9744-a9fedf2fd50f', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '43008b50-3edd-457a-ab79-419a943b3d7a', 'create,read,update,delete', '2025-03-15 05:26:57', '2025-03-15 05:26:57'),
 ('ecc923ba-8b43-4632-84ed-4cdc48353b7a', '0b954732-c4d1-4227-81ab-d9ed6afd761e', '43008b50-3edd-457a-ab79-419a943b3d7a', 'create,read,update,delete', '2025-01-14 08:00:09', '2025-01-14 08:00:09'),
-('f7f7465e-60ca-46ef-a7d6-0b185f138cc6', '91855dc7-376c-4194-989a-f7b0920f6f5a', 'b1027a5c-c05a-4927-aa9e-9154970d78a6', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33');
+('f5383a04-8ae4-4789-99d6-f3e0667d7872', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '436560e6-cf37-4c45-ad56-640c44d27954', 'read', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
+('f5af835d-1abb-4cfe-be10-c15c50d422f5', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', '2eb112c9-8696-46e1-81e3-6201ce2eb0d7', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31'),
+('f7f7465e-60ca-46ef-a7d6-0b185f138cc6', '91855dc7-376c-4194-989a-f7b0920f6f5a', 'b1027a5c-c05a-4927-aa9e-9154970d78a6', 'create,read,update,delete', '2025-01-14 06:40:33', '2025-01-14 06:40:33'),
+('fdef23e7-de75-40ab-8de4-2615f049954a', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 'cb6e6460-30fc-4e70-a63b-05a5b2a99f08', 'create,read,update,delete', '2025-03-15 14:48:31', '2025-03-15 14:48:31');
 
 -- --------------------------------------------------------
 
@@ -1553,7 +1656,7 @@ INSERT INTO `ms_module` (`id_module`, `induk_module`, `code_module`, `name_modul
 ('18b42d8a-74c0-42ee-b3ac-9cb557ea26c2', '8713509d-abd3-4d80-8cb0-89f35a28075a', 'MMB', 'Metode Bayar', 'method-payment', '-', 'fa fa-circle', 'create,read,update,delete', 6, '2025-01-16 01:38:49', '2025-01-16 13:34:06', NULL),
 ('1ca5779c-5f97-4e5a-9fc7-13e2d0e4e086', 'ce9a986b-5488-4514-a338-325513899d35', 'TPUR', 'Transaksi Pembelian', 'purchase', '-', 'fa fa-circle', 'create,read,update,delete', 2, '2025-01-17 07:05:00', '2025-01-17 14:05:00', NULL),
 ('1dc132aa-d4f1-4a29-b158-77930199bc79', '72440edd-20d3-4546-9714-0c2e240ef73c', 'SUR', 'Super User', 'super-user', '-', 'fa fa-circle', 'create,read,update,delete', 4, '2025-01-14 04:32:00', '2025-03-13 14:16:15', '2025-03-13 14:16:15'),
-('28caf3d7-b760-43f6-96e0-1bd771afdb02', '8713509d-abd3-4d80-8cb0-89f35a28075a', 'TRM', 'Tambahan Rental Hari Minggu', 'rental-minggu', '-', 'fa fa-circle', 'create,read,update,delete', 10, '2025-03-14 09:18:59', '2025-03-14 16:18:59', NULL),
+('28caf3d7-b760-43f6-96e0-1bd771afdb02', '8713509d-abd3-4d80-8cb0-89f35a28075a', 'TRM', 'Tambahan Rental Weekend', 'biaya-weekend', '-', 'fa fa-circle', 'create,read,update,delete', 10, '2025-03-14 09:18:59', '2025-03-15 21:51:26', NULL),
 ('2eb112c9-8696-46e1-81e3-6201ce2eb0d7', '72440edd-20d3-4546-9714-0c2e240ef73c', 'LVL', 'Hak Akses', 'level', '-', 'fa fa-list', 'create,read,update,delete', 1, '2024-11-05 14:07:09', '2025-01-01 15:53:58', NULL),
 ('3c03f800-570f-438e-860f-820da4e2d491', '0', 'KSR', 'Kasir', 'cashier', '-', 'fa fa-calculator', 'create,read,update,delete', 4, '2025-01-17 07:09:39', '2025-03-13 14:15:48', '2025-03-13 14:15:48'),
 ('43008b50-3edd-457a-ab79-419a943b3d7a', '0', 'MDL', 'Module', 'module', 'Module aplikasi', 'fa fa-list', 'create,read,update,delete', 2, '2024-11-05 14:02:22', '2024-11-07 14:35:04', NULL),
@@ -1572,7 +1675,7 @@ INSERT INTO `ms_module` (`id_module`, `induk_module`, `code_module`, `name_modul
 ('909fdb29-8167-4efa-88d6-3b51234d6f1a', '8713509d-abd3-4d80-8cb0-89f35a28075a', 'MPRD', 'Produk', 'product', '-', 'fa fa-circle', 'create,read,update,delete', 9, '2025-01-16 06:33:52', '2025-01-16 13:34:06', NULL),
 ('9dddd9da-877e-4093-be1d-05c9812e9884', '0', 'OPT', 'Setting Informasi Website', 'option', '-', 'fa fa-cogs', 'create,read,update,delete', 9, '2024-11-06 04:07:49', '2025-02-19 20:10:08', NULL),
 ('b1027a5c-c05a-4927-aa9e-9154970d78a6', '8713509d-abd3-4d80-8cb0-89f35a28075a', 'MDU', 'Unit', 'unit', '-', 'fa fa-circle', 'create,read,update,delete', 3, '2025-01-13 07:25:40', '2025-01-16 13:34:06', NULL),
-('b97b8d79-8402-4c70-88d2-0d2c1d16ac85', '0', 'LRP', 'Data Rental PS', 'list-rental', '-', 'fa fa-gamepad', 'create,read,update,delete', 10, '2025-03-15 05:26:39', '2025-03-15 12:26:39', NULL),
+('b97b8d79-8402-4c70-88d2-0d2c1d16ac85', '0', 'LRP', 'Bill Rental PS', 'list-pemesanan', '-', 'fa fa-money-bill', 'create,read,update,delete', 10, '2025-03-15 05:26:39', '2025-03-15 22:30:11', NULL),
 ('bc85f02d-8995-4330-a26b-612192e5358d', '0', 'STBC', 'Stock By Kasir', 'stock-by-cashier', '-', 'fa fa-calculator', 'create,read,update,delete', 8, '2025-02-19 13:09:52', '2025-03-13 14:15:25', '2025-03-13 14:15:25'),
 ('cb6e6460-30fc-4e70-a63b-05a5b2a99f08', '0', 'STO', 'Stock Opname', 'stock-opname', '-', 'fas fa-truck', 'create,read,update,delete', 7, '2025-01-17 07:06:27', '2025-02-19 20:10:08', NULL),
 ('ce9a986b-5488-4514-a338-325513899d35', '0', 'TRAS', 'Transaksi', '#', '-', 'fa fa-money-bill', 'create,read,update,delete', 6, '2025-01-17 07:00:24', '2025-02-19 20:10:08', NULL),
@@ -1778,8 +1881,9 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('gC184eZJvI8EjZfhzad52khTjoBjXZgIpMcmINKF', 9, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiWDNYUmMzb0lRMEJWcW45V09NdmhjQ2laSDV3MXBpb0tQU0VSZUZZQSI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjg6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9yZW50YWwiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aTo5O30=', 1742020011),
-('ta1w26LJ5xp1CkDTeL3Y0VE8Lg0uln7cMxyIMxMi', 1, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoicjhRMGRaTUVtQU9HaHFaNXU4M2oxbXhhUjZxUmR5bGRXa0pISUk4YyI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9saXN0LXJlbnRhbCI7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7fQ==', 1742020279);
+('2OBukgDRRrg1fqtUF2umpiA0TFsjxEHgDS1Ogihb', 11, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoia1I3eTZCVmpUNW55M3lCTFBGZEU3QzcyRHRzMFh6WlB1MTU4SFRYdCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTE7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9rZXJhbmphbmciO319', 1742052565),
+('gRNcGWdL9UV32A3L1is5khSlByiBBTVtIl5TNxs1', 1, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiMmo5RTNKa2hPUjhFZ1JTUnBhTWsxNGFxdGhEZGthR3R3UnpwUm1UdCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czozMzoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2xpc3QtcmVudGFsIjt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC91c2VyL2NyZWF0ZSI7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7fQ==', 1742051122),
+('phQhdganVuvZyPUG14Jby2Iixo8dGwAGuXqhid8I', 1, '127.0.0.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiSGs1TXRub3VNWWVDYzREOG85a3lDV3VRNks0VE90WE5DUVRqOVh3SyI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czoyNjoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL3VzZXIiO31zOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czoyODoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL3JlbnRhbCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7fQ==', 1742052624);
 
 -- --------------------------------------------------------
 
@@ -1810,12 +1914,16 @@ CREATE TABLE `tb_rental` (
 --
 
 INSERT INTO `tb_rental` (`id_rental`, `code_rental`, `user_rental`, `title_rental`, `one_day_rental`, `grand_total_rental`, `date_start_rental`, `date_akhir_rental`, `order_id`, `snap_token`, `payment_status_rental`, `return_status_rental`, `created_at`, `updated_at`, `deleted_at`) VALUES
+('0cd02413-893b-4468-a15c-185f2f59f818', '2025031500006', 11, 'PS 4 - kusuma', 1, 30000, '2025-03-12', '2025-03-12', '1029014989', '88bff95f-3a8d-4d58-83df-109518ac36e2', 'pending', 0, '2025-03-15 15:19:22', '2025-03-15 15:19:23', NULL),
+('0e03db4c-3a1e-48e2-91fc-a4d26d2db5eb', '2025031500007', 11, 'PS 5 - kusuma', 1, 40000, '2025-03-11', '2025-03-11', '2059367382', '6928ba68-2e2c-42ef-92ef-25f9d5bf6a91', 'pending', 0, '2025-03-15 15:20:00', '2025-03-15 15:20:00', NULL),
 ('31ba69f4-5164-42bd-ac30-aa83dc980e91', '2025031400002', 9, 'PS 4 - radhit', 1, 30000, '2025-03-11', '2025-03-11', '635990260', '03ff6538-ef50-4dbc-bbe9-a4bb0b5e8825', 'success', 0, '2025-03-14 14:24:49', '2025-03-14 14:25:33', NULL),
 ('3ac9c92e-1424-4682-8695-16057da2006c', '2025031400001', 9, 'PS 4 - radhit', 0, 110000, '2025-03-14', '2025-03-15', '1197987877', '9f886364-dcea-4897-aa9e-e0529b7babd4', 'success', 0, '2025-03-14 13:45:46', '2025-03-14 14:03:10', NULL),
+('5f78a390-91a3-4657-b026-ce2641e91ae6', '2025031500008', 11, 'PS 5 - kusuma', 0, 290000, '2025-03-10', '2025-03-15', '432604150', '0648e336-ba04-4270-bf67-b987bf675a36', 'pending', 0, '2025-03-15 15:25:18', '2025-03-15 15:25:18', NULL),
 ('7695664f-903c-4920-bebf-aafb1c0472c0', '2025031500005', 9, 'PS 4 - radhit', 1, 30000, '2025-03-27', '2025-03-27', '507186733', '3ab404c2-e954-4746-9628-9f240747556f', 'pending', 0, '2025-03-15 06:26:43', '2025-03-15 06:26:45', NULL),
 ('d2378899-6ee5-4ddb-96a4-fec6920f5b31', '2025031400004', 9, 'PS 4 - radhit', 1, 30000, '2025-03-26', '2025-03-26', '1389538150', '08f8e06f-3c79-4616-a396-4aeabeb567a5', 'success', 3, '2025-03-14 15:51:13', '2025-03-15 06:15:29', NULL),
 ('da6b5c20-59c3-4433-9410-458237cd43eb', '2025031500005', 9, 'PS 5 - radhit', 1, 40000, '2025-03-03', '2025-03-03', '256559478', '4c11386b-59b5-451f-94de-43ea740cdffa', 'pending', 0, '2025-03-15 05:23:28', '2025-03-15 05:51:12', '2025-03-15 05:51:12'),
-('ddab1dfe-342b-4a3d-b17e-16f7cc8bf52c', '2025031400003', 9, 'PS 4 - radhit', 1, 30000, '2025-03-18', '2025-03-18', '2097201933', '1c3e8f1f-44e0-493a-8534-7fb152070279', 'success', 0, '2025-03-14 14:48:09', '2025-03-14 14:48:52', NULL);
+('ddab1dfe-342b-4a3d-b17e-16f7cc8bf52c', '2025031400003', 9, 'PS 4 - radhit', 1, 30000, '2025-03-18', '2025-03-18', '2097201933', '1c3e8f1f-44e0-493a-8534-7fb152070279', 'success', 0, '2025-03-14 14:48:09', '2025-03-14 14:48:52', NULL),
+('f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '2025031500009', 11, 'PS 5 - kusuma', 0, 580000, '2025-03-03', '2025-03-14', '1680586511', 'dc32fbea-b475-441b-9cfa-8a2cac6c8631', 'pending', 0, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL);
 
 -- --------------------------------------------------------
 
@@ -1839,13 +1947,33 @@ CREATE TABLE `tb_rental_detail` (
 --
 
 INSERT INTO `tb_rental_detail` (`id_rtd`, `rental_rtd`, `product_rtd`, `date_rtd`, `price_rtd`, `created_at`, `updated_at`, `deleted_at`) VALUES
+('063809c0-4abe-4120-9085-b5dbf760e104', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-03', 40000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
+('0ce94828-4a34-4aff-80b5-594e8bc5b4e7', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-13', 40000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
+('0ea929e1-2cc2-4d2c-836c-1b80d6aef771', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-12', 40000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
+('32ed8077-8d27-4ef4-9575-e32a9f27432e', '5f78a390-91a3-4657-b026-ce2641e91ae6', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-10', 40000, '2025-03-15 15:25:18', '2025-03-15 15:25:18', NULL),
+('4c31f925-4577-400c-87a7-80df7088dd40', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-11', 40000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
+('551e69a6-fa7c-4346-8eba-3e8612bb6fa7', '5f78a390-91a3-4657-b026-ce2641e91ae6', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-15', 90000, '2025-03-15 15:25:18', '2025-03-15 15:25:18', NULL),
 ('56c99ec6-e561-4ab8-8cf3-71a6416f2205', '3ac9c92e-1424-4682-8695-16057da2006c', '95bc982b-d35d-49e5-979d-3a93ddf62c25', '2025-03-15', 80000, '2025-03-14 13:45:46', '2025-03-14 13:45:46', NULL),
 ('5d9bc16c-358b-4490-9325-fcc4d222eeb0', '7695664f-903c-4920-bebf-aafb1c0472c0', '95bc982b-d35d-49e5-979d-3a93ddf62c25', '2025-03-27', 30000, '2025-03-15 06:26:43', '2025-03-15 06:26:43', NULL),
+('62105be4-ae49-4fdf-9e2d-e0d27dcc133e', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-10', 40000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
 ('6558a47a-d77b-4c1e-a28b-09ac04dde7b0', 'd2378899-6ee5-4ddb-96a4-fec6920f5b31', '95bc982b-d35d-49e5-979d-3a93ddf62c25', '2025-03-26', 30000, '2025-03-14 15:51:13', '2025-03-14 15:51:13', NULL),
 ('66477afb-d184-4a01-8366-f414b939622f', 'ddab1dfe-342b-4a3d-b17e-16f7cc8bf52c', '95bc982b-d35d-49e5-979d-3a93ddf62c25', '2025-03-18', 30000, '2025-03-14 14:48:09', '2025-03-14 14:48:09', NULL),
+('6f7f90a5-31a3-489d-bc62-b3740ce9105f', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-14', 40000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
+('7d28d784-91e9-4986-b96a-d4b446892bd8', '0cd02413-893b-4468-a15c-185f2f59f818', '95bc982b-d35d-49e5-979d-3a93ddf62c25', '2025-03-12', 30000, '2025-03-15 15:19:22', '2025-03-15 15:19:22', NULL),
+('84b7d4a3-31a8-4b9e-a77f-3458889e79c5', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-04', 40000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
+('8feac031-e061-4f94-b93f-29a1303c914e', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-09', 90000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
+('aa97490e-57d8-4bb0-b0bb-9dfc31b5eb03', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-08', 90000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
 ('aff3f2e9-6a0f-47bb-a843-310c8f5cce14', 'da6b5c20-59c3-4433-9410-458237cd43eb', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-03', 40000, '2025-03-15 05:23:28', '2025-03-15 05:51:12', '2025-03-15 05:51:12'),
 ('b132b32b-ed0d-4d1e-a3bb-2c78c64b9e0d', '31ba69f4-5164-42bd-ac30-aa83dc980e91', '95bc982b-d35d-49e5-979d-3a93ddf62c25', '2025-03-11', 30000, '2025-03-14 14:24:49', '2025-03-14 14:24:49', NULL),
-('c277eacf-8a67-4ee3-96b5-da11b515c877', '3ac9c92e-1424-4682-8695-16057da2006c', '95bc982b-d35d-49e5-979d-3a93ddf62c25', '2025-03-14', 30000, '2025-03-14 13:45:46', '2025-03-14 13:45:46', NULL);
+('b7c19e23-0059-45b1-bd5a-ea57ee8530bf', '0e03db4c-3a1e-48e2-91fc-a4d26d2db5eb', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-11', 40000, '2025-03-15 15:20:00', '2025-03-15 15:20:00', NULL),
+('baa1d4b3-26e4-4a1a-8056-221e9f667e1b', '5f78a390-91a3-4657-b026-ce2641e91ae6', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-14', 40000, '2025-03-15 15:25:18', '2025-03-15 15:25:18', NULL),
+('c0d23769-e387-47f5-b284-8152ccb7114e', '5f78a390-91a3-4657-b026-ce2641e91ae6', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-11', 40000, '2025-03-15 15:25:18', '2025-03-15 15:25:18', NULL),
+('c277eacf-8a67-4ee3-96b5-da11b515c877', '3ac9c92e-1424-4682-8695-16057da2006c', '95bc982b-d35d-49e5-979d-3a93ddf62c25', '2025-03-14', 30000, '2025-03-14 13:45:46', '2025-03-14 13:45:46', NULL),
+('c4c1007a-8907-490f-a5a9-71176ac5eedd', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-07', 40000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
+('d7b50f8e-dd09-469b-aa69-39e905783fb7', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-06', 40000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
+('de66d370-5cc1-4336-a106-354c2bc5ff18', 'f70982c2-45ed-49fc-8ff6-05a64c6cb0a2', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-05', 40000, '2025-03-15 15:26:40', '2025-03-15 15:26:40', NULL),
+('f5406548-5c1c-4c82-a9a9-0fe187c0bab1', '5f78a390-91a3-4657-b026-ce2641e91ae6', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-13', 40000, '2025-03-15 15:25:18', '2025-03-15 15:25:18', NULL),
+('fa88cfcb-4f82-440b-b72a-a7e5a9b010dd', '5f78a390-91a3-4657-b026-ce2641e91ae6', '26d80ded-1af1-4bdd-bcae-5eb0ffcd7a3d', '2025-03-12', 40000, '2025-03-15 15:25:18', '2025-03-15 15:25:18', NULL);
 
 -- --------------------------------------------------------
 
@@ -1969,7 +2097,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `customer_user`, `username`, `level_user`, `status_user`, `email`, `email_verified_at`, `password`, `remember_token`, `show_user`, `created_at`, `updated_at`) VALUES
 (1, 'admin', NULL, 'admin', '5bcd3787-5e3d-4921-ac8c-11a5110d85a1', 1, 'admin@mail.com', NULL, '$2y$12$Kvmt3fe6BOqeBBiAERvnsuZviZzGMrwkT7iueSO5L7e.SJolyt3oi', NULL, 1, NULL, '2025-01-01 09:14:54'),
-(9, 'radhit', 'afb8a90a-f85f-4b5d-8457-228426256723', 'radhit', 'd0c09144-9a2f-4b17-8241-d61e21823837', 1, 'radhit@mail.com', NULL, '$2y$12$5FUXSRG5d/vQOZt2s62.h.zJPWUmSeguVPruRjcL4Y5NKKXHy.vFG', NULL, 1, '2025-03-13 10:55:26', '2025-03-13 10:55:26');
+(9, 'radhit', 'afb8a90a-f85f-4b5d-8457-228426256723', 'radhit', 'd0c09144-9a2f-4b17-8241-d61e21823837', 1, 'radhit@mail.com', NULL, '$2y$12$5FUXSRG5d/vQOZt2s62.h.zJPWUmSeguVPruRjcL4Y5NKKXHy.vFG', NULL, 1, '2025-03-13 10:55:26', '2025-03-13 10:55:26'),
+(11, 'kusuma', 'a27acd30-e3de-49e0-9c29-6e7c30347a44', 'kusuma', 'd0c09144-9a2f-4b17-8241-d61e21823837', 1, 'kusuma@mail.com', NULL, '$2y$12$nfXvA8fMdYRsy7WfKOkrMeu7YEnvF/dL2ilTdD5mYvlAEQUh.fWVi', NULL, 1, '2025-03-15 15:05:48', '2025-03-15 15:05:48');
 
 --
 -- Indexes for dumped tables
@@ -2174,13 +2303,13 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `logs`
 --
 ALTER TABLE `logs`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1154;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1201;
 
 --
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
 
 --
 -- AUTO_INCREMENT for table `personal_access_tokens`
@@ -2192,7 +2321,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

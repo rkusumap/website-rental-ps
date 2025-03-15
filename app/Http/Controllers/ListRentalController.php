@@ -25,7 +25,7 @@ class ListRentalController extends Controller
 
     public function index() {
 
-        $get_module = get_module_id('list-rental');
+        $get_module = get_module_id('list-pemesanan');
         if (!notAccessBackHome($get_module)) {
             return redirect('/home');
         }
@@ -43,7 +43,7 @@ class ListRentalController extends Controller
         return Datatables::of($datas)
             ->addColumn('action', function ($data) {
                 //get module akses
-                $id_module = get_module_id('list-rental');
+                $id_module = get_module_id('list-pemesanan');
 
                 $btn_detail = '';
                 if (isAccess('read', $id_module, auth()->user()->level_user)) {

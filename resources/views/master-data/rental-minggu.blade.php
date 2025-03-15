@@ -21,7 +21,7 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <form action="{{route('rental-minggu.update',[$get_data->id_rm])}}" method="POST" class="form-sample" id="form">
+                    <form action="{{route('biaya-weekend.update',[$get_data->id_rm])}}" method="POST" class="form-sample" id="form">
                         @csrf
                         @method('PUT')
                         <div class="row">
@@ -62,7 +62,7 @@
                     if (response.status==true) {
                         swal({title: "Success!", text: "Berhasil Menyimpan Data", icon: "success"})
                                 .then(function(){
-                                    document.location='/rental-minggu';
+                                    document.location='/biaya-weekend';
                             });
                     } else {
                         var pesan = "";

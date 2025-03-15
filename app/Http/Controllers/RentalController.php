@@ -56,10 +56,24 @@ class RentalController extends Controller
         $start = Carbon::parse($request->start);
         $end = Carbon::parse($request->end);
 
-        $events = Rental::whereBetween('date_start_rental', [$start, $end])
-                        ->orWhereBetween('date_akhir_rental', [$start, $end])
+        $events = array();
+        if (Auth::user()->role->code_level == "CUSTOMER") {
+
+            $events = Rental::where(function ($query) use ($start, $end) {
+                            $query->whereBetween('date_start_rental', [$start, $end])
+                                ->orWhereBetween('date_akhir_rental', [$start, $end]);
+                        })
                         ->where('user_rental', Auth::user()->id)
                         ->get();
+
+        }
+
+        else if(Auth::user()->role->code_level == "ADM" ){
+            $events = Rental::whereBetween('date_start_rental', [$start, $end])
+                        ->orWhereBetween('date_akhir_rental', [$start, $end])
+                        ->get();
+        }
+
 
         $formattedEvents = $events->map(function ($event) {
             return [
@@ -107,7 +121,11 @@ class RentalController extends Controller
         //         }
         //     }
         // }
-        $events = Rental::whereIn('id_rental', $dataIdRental)->get();
+        $events = Rental::whereIn('id_rental', $dataIdRental);
+        if (Auth::user()->role->code_level == "CUSTOMER") {
+            $events = $events->where('user_rental', Auth::user()->id);
+        }
+        $events = $events->get();
         if ($events->isEmpty()) {
             return response()->json(['message' => 'No events found'], 404);
         }

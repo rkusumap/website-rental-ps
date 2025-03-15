@@ -22,7 +22,7 @@ class RentalMingguController extends Controller
     }
 
     public function index() {
-        $get_module = get_module_id('rental-minggu');
+        $get_module = get_module_id('biaya-weekend');
         if (!notAccessBackHome($get_module)) {
             return redirect('/home');
         }

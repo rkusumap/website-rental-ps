@@ -60,7 +60,7 @@ if (! function_exists('check_stock')) {
                         ->join('tb_rental','tb_rental.id_rental','=','tb_rental_detail.rental_rtd')
                         ->select('tb_rental_detail.rental_rtd')
                         ->where('product_rtd', $id_product)
-                        ->where('tb_rental.payment_status_rental', 'success')
+                        // ->where('tb_rental.payment_status_rental', 'success')
                         ->whereIn('tb_rental.return_status_rental', [0,1,2])
                         ->whereNull('tb_rental.deleted_at')
                         ->groupBy('tb_rental_detail.rental_rtd')

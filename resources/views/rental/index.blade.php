@@ -54,14 +54,18 @@
                     <li class="nav-item">
                         <a class="nav-link active" id="tab1-link" data-bs-toggle="tab" href="#tab1">Detail</a>
                     </li>
+                    @if (isAccess('create', $get_module, auth()->user()->level_user))
                     <li class="nav-item">
                         <a class="nav-link" id="tab2-link" data-bs-toggle="tab" href="#tab2">Rental PS</a>
                     </li>
+                    @endif
                 </ul>
 
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="tab1">
-                        <button type="button" class="btn btn-primary mb-3" id="pesanBtn">Pesan</button>
+                        @if (isAccess('create', $get_module, auth()->user()->level_user))
+                            <button type="button" class="btn btn-primary mb-3" id="pesanBtn">Pesan</button>
+                        @endif
                         <div class="table-responsive">
                             <table class="table table-striped table-vcenter table-mobile-md card-table dt-responsive nowrap" id="set-table">
                                 <thead>
@@ -72,7 +76,9 @@
                                         <th>Biaya</th>
                                         <th>Status Bayar</th>
                                         <th>Status Barang</th>
+                                        @if (isAccess('create', $get_module, auth()->user()->level_user))
                                         <th>Aksi</th>
+                                        @endif
 
                                     </tr>
                                 </thead>
@@ -83,6 +89,7 @@
                             </table>
                         </div>
                     </div>
+                    @if (isAccess('create', $get_module, auth()->user()->level_user))
                     <div class="tab-pane fade" id="tab2">
                         <form action="" id="form-rental">
                         <div class="form-group">
@@ -124,6 +131,7 @@
                         <button class="btn btn-success btn-pesan-sekarang" type="button">Pesan Sekarang</button>
                         </form>
                     </div>
+                    @endif
                 </div>
             </div>
             <div class="modal-footer">
@@ -154,9 +162,10 @@
 
         // Ensure dates are valid
         if (!tanggalAwal || !tanggalAkhir) {
-            swal("Error!", 'Tanggal awal atau akhir tidak boleh kosong', "error");
+            // swal("Error!", 'Tanggal awal atau akhir tidak boleh kosong', "error");
             // console.error("Tanggal awal atau akhir tidak boleh kosong.");
             $('#biaya').val(0);
+            return;
         }
 
         // Convert dates to Date objects
@@ -167,6 +176,7 @@
             swal("Error!", 'Tanggal awal tidak boleh lebih besar dari tanggal akhir', "error");
             // console.error("Tanggal awal tidak boleh lebih besar dari tanggal akhir.");
             $('#biaya').val(0);
+            return;
         }
 
         // Calculate the number of days
@@ -194,6 +204,7 @@
         if (jenis_ps === 'kosong') {
             swal("Error!", 'Pilih jenis PS terlebih dahulu', "error");
             $('#biaya').val(0);
+            return;
         }
 
     }
@@ -239,7 +250,7 @@
             // Calculate the number of days
             var totalDays = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)) + 1;
 
-            if (biaya != 0 || biaya != '') {
+            if (biaya != 0 && biaya != '') {
                 // console.log("Jenis PS:", jenis_ps);
                 // console.log("Satu Hari:", satuhari);
                 // console.log("Tanggal Awal:", tanggal_awal);
@@ -338,9 +349,11 @@
 
                         </td>
                         <td>${val.status_rental}</td>
+                        @if (isAccess('create', $get_module, auth()->user()->level_user))
                         <td>
                             <button type="button" data-id="${val.id_rental}" data-snap="${val.snap_token}" class="btn btn-sm btn-success btn-bayar ${val.d_none_bayar}">Bayar</button>
                         </td>
+                        @endif
                     </tr>
                 `);
             });
@@ -404,7 +417,7 @@
             defaultView: 'month', // Show only month view
             editable: true,
             displayEventTime: false, // Hide event time
-            // eventLimit: true, // Group events when more than 3
+            eventLimit: 3, // Group events when more than 3
             events: function(start, end, timezone, callback) {
                 fetchEvents(start, end, callback);
             },

@@ -182,7 +182,7 @@ Route::middleware(['auth'])->group(function () {
     Route::resource("rental", RentalController::class);
 
     //biaya rental weekend
-    Route::resource("rental-minggu", RentalMingguController::class);
+    Route::resource("biaya-weekend", RentalMingguController::class);
 
     //keranjang
     Route::prefix('keranjang')->group(function() {
@@ -192,13 +192,13 @@ Route::middleware(['auth'])->group(function () {
     Route::resource("keranjang", KeranjangController::class);
 
     //list rental
-    Route::prefix('list-rental')->group(function() {
+    Route::prefix('list-pemesanan')->group(function() {
         Route::get('/', [ListRentalController::class, 'index']);
         Route::get('/json', [ListRentalController::class, 'json']);
         Route::get('/rental-show/{id}', [ListRentalController::class, 'rental_show']);
         Route::get('/delete/{id}', [ListRentalController::class, 'destroy']);
     });
-    Route::resource("list-rental", ListRentalController::class);
+    Route::resource("list-pemesanan", ListRentalController::class);
 
 
 
